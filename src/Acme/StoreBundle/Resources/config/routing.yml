@@ -1,0 +1,10 @@
+AcmeStoreBundle_homepage:
+    pattern:  /product_create
+    defaults: { _controller: AcmeStoreBundle:Default:create }
+
+AcmeStoreBundle_show:
+    pattern:  /product/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:show }
+    requirements:
+        page: \d+
+
