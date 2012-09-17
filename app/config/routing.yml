@@ -1,6 +1,5 @@
 AcmeStoreBundle:
-    resource: "@AcmeStoreBundle/Controller/"
-    type:     annotation
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
     prefix:   /
 
 AcmeHelloBundle:
